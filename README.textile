@@ -8,7 +8,7 @@ h2. Setup
 
 @oh-my-zsh@ should work with any recent release of "zsh":http://www.zsh.org/, the minimum recommended version is 4.3.9.
 
-h3. The automatic installer... (do you trust me?)
+h3. The automatic installer... (Official oh-my-zsh source?)
 
 You can install this via the command line with either `curl` or `wget`.
 
@@ -31,11 +31,11 @@ end of the install pipeline like this:
 @curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh@
 
 
-h3. The manual way
+h3. The manual way(Allen's version)
 
 1. Clone the repository
 
-  @git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh@
+  @git clone git://github.com/AIIenGY/oh-my-zsh.git ~/.oh-my-zsh@
 
 2. *OPTIONAL* Backup your existing ~/.zshrc file
 
