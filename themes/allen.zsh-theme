@@ -4,7 +4,7 @@ function prompt_char {
 }
 
 #PROMPT='%(!.%{$fg_bold[red]%}.%{$fg_bold[magenta]%}%n@)%m %{$reset_color%}%{$fg[green]%}%(!.%1~.%~)
-PROMPT='%n@%m:%{$reset_color%}%{$fg[green]%}%(!.%1~.%~)
+PROMPT='%n@%m:%{$reset_color%}%{$fg[green]%}%~
 %_$(prompt_char)%{$reset_color%} '
 RPROMPT='[%*]'
 
