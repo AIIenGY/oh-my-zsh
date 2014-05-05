@@ -67,9 +67,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-alias sudo='nocorrect sudo'
-alias mkdir='nocorrect mkdir'
-alias mv='nocorrect mv'
+alias sudo='sudo '
 
 alias ll='ls -lF'
 alias la='ls -A'
@@ -77,4 +75,5 @@ alias l='ls -CF'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+alias mkdir='mkdir -p'
 alias grep='grep --color=auto'
